@@ -1,0 +1,67 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    /* cover:尽可能大的缩放背景图像并保持图像的宽高比例 */
+    background-size: cover;
+}
+
+
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.title-box {
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+
+.reg-box {
+    display: none;
+}
+
+
+.layui-form {
+    padding: 0px 30px;
+}
+
+
+.links {
+    display: flex;
+    /* 水平居右 */
+    justify-content: flex-end; 
+}
+
+
+.links a {
+    font-size: 12px;
+}
+
+
+.layui-form-item {
+    position: relative;
+}
+
+
+.layui-form-item i {
+    position: absolute; 
+    left: 10px;
+    top: 10px;
+}
+
+
+.layui-input {
+    padding-left: 32px;
+}
