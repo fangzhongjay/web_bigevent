@@ -27,6 +27,11 @@ iframe {
 }
 
 
+a{
+    transition: none !important;
+}
+
+
 .userinfo {
     height: 60px;
     line-height: 60px;
@@ -39,6 +44,10 @@ iframe {
 
 .layui-side-scroll .userinfo {
     border-bottom: 1px solid #282B33; 
+}
+
+.layui-logo {
+    background-color: #23262e !important;
 }
 
 
@@ -62,4 +71,8 @@ iframe {
     position: relative;
     top: 4px;
     margin-left: 10px;
+}
+
+.layui-nav-item a {
+    font-size: 12px;
 }

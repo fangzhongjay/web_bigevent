@@ -63,6 +63,6 @@ function renderAvatar(user) {
         // 3.2 渲染文本头像
         $('.layui-nav-img').hide()
         var first = name[0].toUpperCase() // toUpperCase()是大写
-        $('.text-avatar').html(first).show()
+        $('.text-avator').html(first).show()
     }
 }
